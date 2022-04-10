@@ -11,7 +11,7 @@ This small utility execute a list of commands in Docker defined in a
 environment variables and mount the current directory into it. Then commands
 are executed one after another.
 
-~[screenshot](screenshot.png)
+![screenshot](screenshot.png)
 
 ## Getting started
 
