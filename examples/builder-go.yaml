@@ -1,0 +1,10 @@
+jobs:
+  - name: build-go
+    stages:
+      - name: release
+        image: golang:1.17-alpine
+        env:
+          CGO_ENABLED: 0
+        commands:
+          - go test ./...
+          - go build -o builder

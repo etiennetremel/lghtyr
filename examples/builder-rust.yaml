@@ -1,0 +1,10 @@
+jobs:
+  - name: build-rust
+    stages:
+      - name: release
+        image: rust:1.58
+        env:
+          CARGO_TERM_COLOR: always
+        commands:
+        - cargo test
+        - cargo build
