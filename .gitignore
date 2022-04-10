@@ -1,2 +1,3 @@
 builder
+!pkg/
 .DS_Store
